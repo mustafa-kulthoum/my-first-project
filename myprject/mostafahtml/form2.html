@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription"content="html for beginners">
+    <title>form prt 2 button input,resrt input,file input</title>
+    <script>
+      function sayHello()
+      {
+       alert("hello Html");
+      }
+    </script>
+    <style>
+     fieldset{background:#EFEFEF;padding:10px;border:1px solid #CCC;margin-button:20px}
+     legend{background:#FFF;border:1px solid #CCC;padding:5x}
+     body{background:rgb(158, 206, 158);}
+    </style>     
+  </head>
+  <body>
+    <form name="register">
+      <fieldset>
+     <legend>personal information</legend>
+     <label>username</label>
+     <input type="text" name="username" maxlength="10" placeholder="your name">
+
+     <br> 
+     <br>
+
+     <label>password</label> 
+     <input type="password" name="password">
+ 
+     <br>
+     <br>
+     <label>your message</label>
+     <br>
+     <textarea rows="6"cols="60" readonly>this note you con't edit</textarea>
+     <br>
+     <br>
+     <label> upload your cv</label>
+     <input type="file"> 
+     <br>
+     <br>
+     <input type="checkbox">
+     <label>Remember Me</label>
+     <br>
+     <br>
+     </fieldset>    
+     <br>
+     <br>
+     <fieldset>
+     <legend>choose browser and mobile favoureti</legend> 
+     <label>choos mobile</label>
+     <br>
+     <input type="radio" name="mobile" value="iphon">IPhon<br>
+     <input type="radio" name="mobile" value="samsung">samsung<br>
+     <input type="radio" name="mobile" value="nokya">nokya<br>
+     <br>
+     <hr>
+     <br> 
+      <label>choos browser</label>
+     <br>
+     <input type="radio" name="browser" value="google chrom">google chrom<br>
+     <input type="radio" name="brwoser" value="fair fox">fair fox<br>
+     <input type="radio" name="brwoser" value="opera">opera<br>
+     <br> 
+     <br>
+     </fieldset>
+     <br>
+     <br>
+     <fieldset>
+      <legend>your location</legend>
+      <br>
+      <br>
+      <input type="image"src="istanbul.jpg" alt="submit" wwidth="300" height="200">
+      <br>
+      <br>
+      </fieldset>
+     <fieldset>
+     <legend>send data</legend>
+     <select name="time" size="3" multiple>
+      <optgroup label="near time" disabled>
+       <option value="0">now</optoin>
+       <option value="1">today</option>
+       <option value="2">week</option>
+      </optgroup>
+      <optgroup label="far time">
+       <option value="3" selected>month</option>
+       <option value="4">yaer</option>
+       <option value="5">10yaer</option>
+       <option value="6">20yaer</option>
+      </optgroup>
+    </select>
+     <input type="button" name="say hello" value="say hello" onclick="sayHello()">
+     <input type="submit" value="Sign Up">
+     <input type="reset" value="Restor Default">
+     </fieldset>
+     <br>
+     <br>
+   
+    </form>
+  </body>
+ </html>

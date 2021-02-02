@@ -1,0 +1,13 @@
+div
+{ 
+    background:#ddd;padding:10px;border:2px solid rgb(214, 0, 0);margin:100px 400px 100px 400px;width: 500px;height: 400px; float: none;;
+
+}
+input
+{
+    padding:10px;border:2px solid rgb(0, 0, 214);margin-bottom:30px;
+}
+body
+{
+  background-image: url(https://www.almrsal.com/wp-content/uploads/2015/11/Flowers-Inscriptions.jpg);
+}

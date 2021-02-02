@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription"content="html for beginners">
+    <title>table part 3 by css (table,tr ,td,th,caption)</title>
+    <link rel="stylesheet" href="style.css">
+    <script></script>
+    <style>
+        table,th,td{border:1px solid#333}
+        table caption {color:#00f;font-weight:bold}
+        th{color:#f00}
+        td{color:#0ff}
+    </style>     
+  </head>
+  <body>
+    <table>
+     <caption > this is my colspan</caption>
+      <tr>
+       <th colspan="2">programing</th>
+       <th colspan="3">web desing</th>
+      </tr>
+      <tr>
+       <td>java</th>
+       <td>php</th>
+       <td>html</th>
+       <td><mark>css</mark></th>
+       <td>html5</th>
+      </tr>
+     </table>
+     <table>
+      <caption > this is my rowspan with colgroup</caption>
+       <colgroup>
+       <col span="2" style="background:#aaa">
+       <col span="1" style="background:#ccc">
+      </colgroup>
+       <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>adress</th>
+       </tr>
+       <tr>
+        <td>ahmad</td>
+        <td>ahmad@gmail.com</td>
+        <td>kanarya</td>
+       </tr>
+       <tr>
+        <td rowspan="3">mostafa</td>
+        <td>mostafa1@gmail.com</td>
+        <td>fatih</td>
+       </tr>
+       <tr>
+        <td>mostafa2@gmail.com</td>
+        <td>fatih</td>
+       </tr>
+       <tr>
+        <td>mostafa3@gmail.com</td>
+        <td>fatih</td>
+       </tr>
+       <tr>
+        <td>mohammad</td>
+        <td>mohammad@gmail.com</td>
+        <td>rami</td>
+       </tr>
+     </table>
+   </body>
+ </html>
